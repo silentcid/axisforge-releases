@@ -1,0 +1,15 @@
+# Release binaries live on the GitHub Releases page, not in the repo.
+# These are kept out of git so the history stays small even if a build
+# accidentally lands in the working tree.
+*.AppImage
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+*.tar.xz
+
+# Local checksum work-in-progress
+SHA256SUMS.tmp
+*.sig
+
+.DS_Store
