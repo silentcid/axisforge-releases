@@ -24,7 +24,7 @@ requests, and support questions come in through the website.
 ## Which file do I download?
 
 Each release on the [Releases page](../../releases/latest) carries five
-files. `<version>` is the release number, for example `1.0.6`.
+files. `<version>` is the release number, for example `1.0.8`.
 
 | File | For |
 |---|---|
@@ -46,7 +46,7 @@ compat one. On a Steam Deck, take the SteamOS one.
 
 ```bash
 # 1. Set this to the latest version shown on the Releases page.
-VERSION=1.0.6
+VERSION=1.0.8
 
 # 2. Download. For the compat or SteamOS build, add -compat or -steamos
 #    after the version: AxisForge-$VERSION-compat-x86_64.AppImage
